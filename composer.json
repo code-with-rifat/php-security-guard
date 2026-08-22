@@ -1,0 +1,41 @@
+﻿{
+    "require":  {
+                    "php":  "\u003e=8.2",
+                    "psr/container":  "^2.0",
+                    "psr/log":  "^3.0"
+                },
+    "description":  "Security toolkit featuring XSS sanitization, SQL Injection guard, CSRF validation, and security headers manager.",
+    "type":  "project",
+    "keywords":  [
+                     "php",
+                     "security",
+                     "xss-protection",
+                     "csrf",
+                     "waf",
+                     "sanitization"
+                 ],
+    "autoload":  {
+                     "psr-4":  {
+                                   "App\\\\":  "src/"
+                               }
+                 },
+    "prefer-stable":  true,
+    "name":  "code-with-rifat/php-security-guard",
+    "authors":  [
+                    {
+                        "email":  "hriazul45@gmail.com",
+                        "name":  "Riazul Islam Rifat",
+                        "homepage":  "https://github.com/code-with-rifat"
+                    }
+                ],
+    "autoload-dev":  {
+                         "psr-4":  {
+                                       "Tests\\\\":  "tests/"
+                                   }
+                     },
+    "require-dev":  {
+                        "phpunit/phpunit":  "^10.0"
+                    },
+    "license":  "MIT",
+    "minimum-stability":  "stable"
+}
